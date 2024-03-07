@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>サイヤ人</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/earlyaccess/nicomoji.css" rel="stylesheet">
+    
+  </head>
+
+  <body>
+    <!-- コンテンツ表示画面 -->
+
+    <div class="kintai_wrap">
+
+
+      <div class="kintai_title">
+        <div class="manu_icon"><img src="img/menu.png" alt=""></div>
+       サイヤジン キンタイヒョウ
+      </div>
+
+      
+
+    <div class="kintai_menu">
+
+ 
+    <div class="kintai_name">
+      名前：<select name="" id="name">
+        <option>選択してください</option>
+        <option>孫悟空</option>
+        <option>ベジータ</option>
+        <option>クリリン</option>
+        <option>ヤムチャ</option>
+        <option>桃白白</option>
+        <option>人造人間１８号</option>
+        <option>ミスターサタン</option>
+      </select>
+    </div>
+   
+      <div class="kintai_data">出勤日：<input type="date" id="day" /></div>
+
+      <div class="kintai_time">出勤時間：<input type="time" id="time"></div>
+
+      <div class="kintai_rest">
+        休憩時間：<label for="helf"
+          ><input
+            type="radio"
+            id="helf"
+            name="restTime"
+            value="helf"
+          />30分</label
+        >
+        <label for="oneHour"
+          ><input
+            type="radio"
+            id="oneHour"
+            name="restTime"
+            value="oneHour"
+          />1時間</label
+        >
+        <label for="secondHour"
+          ><input
+            type="radio"
+            id="secondHour"
+            name="restTime"
+            value="secondHour"
+          />2時間</label
+        >
+      </div>
+
+      <div class="kintai_leave">退勤時間：<input type="time" id="time_leave" /></div>
+
+      <div class="kintai_text">
+        引き継ぎメモ
+        <textarea
+          id="text"
+          cols="40"
+          rows="10"
+          placeholder="例:ナメック星で神龍が登場したため早番の方確認しに行ってください"
+        ></textarea>
+      </div>
+
+
+   
+
+      
+    </div>
+
+    <div class="star_wrap">
+      <div class="s1">★</div>
+      <div class="s2">★★</div>
+      <div class="s3">★★<br>★</div>
+      <div class="s4">★★<br>★★</div>
+      <div class="s5">★★<br>★★★</div>
+      <div class="s6">★★★<br>★★★</div>
+      <div class="btn"><button id="send">★★★<br>★★★★</button></div>
+    </div>
+
+    </div>
+
+      <div id="output">
+        <div class="close">
+          <img src="img/close.png" alt="">
+
+
+
+      </div>
+   
+  </div>
+
+     
+
+      <div class="goku"><img src="img/4.PNG" alt=""></div>
+
+      <div class="rireki"></div>
+
+     
+
+      <div class="reader">
+        <img src="img/9.png" alt="">
+      </div>
+      <div class="mail"><img src="img/10.png" alt=""></div>
+      <div class="yashi"><img src="img/11.png" alt=""></div>
+      
+
+
+
+    </div>
+   
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="module" src="js/app.js"></script>
+  </body>
+</html>
